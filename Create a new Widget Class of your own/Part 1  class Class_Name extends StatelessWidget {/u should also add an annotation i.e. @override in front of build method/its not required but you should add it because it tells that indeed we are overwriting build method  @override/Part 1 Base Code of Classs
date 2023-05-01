@@ -1,0 +1,15 @@
+// Create a new Widget Class of your own
+// Part 1
+
+class Class_Name extends StatelessWidget {
+// u should also add an annotation i.e. @override in front of build method 
+// its not required but you should add it because it tells that indeed we are overwriting build method
+
+@override
+
+//  a Build method is required for class instialilization
+// build require a parameter context or ctx
+Widget build(){}
+
+
+}
