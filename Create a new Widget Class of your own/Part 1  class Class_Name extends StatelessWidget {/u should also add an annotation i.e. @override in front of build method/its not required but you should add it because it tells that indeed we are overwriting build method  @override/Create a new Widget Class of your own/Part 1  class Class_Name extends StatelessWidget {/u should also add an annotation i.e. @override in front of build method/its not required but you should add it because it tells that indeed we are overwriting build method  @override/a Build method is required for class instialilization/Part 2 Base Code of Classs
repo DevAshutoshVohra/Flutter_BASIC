@@ -1,0 +1,48 @@
+// Create a new Widget Class of your own
+// Part 2
+
+class Class_Name extends StatelessWidget {
+//Now its Optional but u can add Constructors For adding more Functionality To your Code
+'
+
+// ***Note here we need to create a constructor its optional but if u create a constructor 
+// our inherited class ie.  StatelessWidget Class require a named key parameter
+// so we need to give it
+//
+
+
+
+
+//super refers to the parent class ie. statelessWidget
+
+
+
+
+
+
+
+
+Class_Name({key}) : super( key : key ){
+// Can do some initialization
+
+}
+
+
+
+// Class_Name( { super.key } ){
+// Can do some initialization 
+// Shortcut
+
+//}
+
+// u should also add an annotation i.e. @override in front of build method 
+// its not required but you should add it because it tells that indeed we are overwriting build method
+
+@override
+
+//  a Build method is required for class instialilization
+// build require a parameter context or ctx
+Widget build(){}
+//Now Return the widget you want to use in other part or places
+return  Container();
+}
