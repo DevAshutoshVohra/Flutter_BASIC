@@ -1,0 +1,8 @@
+simple Editable Outlined Button Code
+
+
+ OutlinedButton.icon(
+                icon: Icon(Icons.arrow_circle_right),                onPressed: () {},
+                label: Text('Button'),
+                style: OutlinedButton.styleFrom(foregroundColor: Colors.white),
+              ),
