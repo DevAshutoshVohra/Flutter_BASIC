@@ -1,0 +1,37 @@
+MAking Image Transparent
+
+
+There are two steps to do that
+S-1
+// NOT EFFICIENT APPROACH AND SHOULD BE AVOIDED
+Wrap your image by opacityWidget
+
+Opacity(opacity: 0.5,
+                child: Image.asset(
+                  'assets/images/quiz.png',
+                  width: 300,
+                ),
+              ),
+              
+              
+              
+              
+             Step 2 
+             
+             //  EFFICIENT APPROACH AND SHOULD BE FOLLOWED
+             
+             This Approach can be fowwoed with every widget ehich accept color parameter
+             use the transparency slider in color menu 
+             
+             
+             its more easy and the best way 
+             
+             
+              Image.asset(
+                  'assets/images/quiz.png',
+                  width: 300,
+                  color: Color.fromARGB(167, 242, 234, 234),
+                ),
+                
+                
+                
